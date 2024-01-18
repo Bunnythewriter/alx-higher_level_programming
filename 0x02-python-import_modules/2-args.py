@@ -3,7 +3,7 @@
 def argCount(argv):
     '''counts and prints args'''
     if len(argv) > 2:
-        print('{} arguments:'.format(argv - 1))
+        print('{} arguments:'.format(len(argv) - 1))
         for i, arg in enumerate(argv[1:], 1):
             print('{}: {}'.format(i, arg))
     elif len(argv) == 2:
