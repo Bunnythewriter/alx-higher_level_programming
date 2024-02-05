@@ -2,8 +2,7 @@
 def safe_print_integer(value):
     ''' A function that prints an integer with "{:d}".format()'''
     try:
-        if isinstance(value, int):
-            print('{:d}'.format(value))
+        print('{:d}'.format(value))
     except:
         return False
     return True
